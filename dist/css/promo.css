@@ -98,8 +98,6 @@ button {
     border-radius: 6px;
 }
 
-
-
 .promo__button {
     display: flex;
     padding: 10px;
@@ -163,6 +161,17 @@ button {
 
     .promo__title {
         padding: 16px;
+    }
+
+
+    .promo__list {
+        overflow: unset;
+        column-gap: unset;
+        padding: unset;
+    }
+
+    .promo__list--hidden {
+        overflow: unset;
     }
 
     .swiper {
@@ -239,8 +248,8 @@ button {
     }
 
     .promo__grid {
-        max-height: 600px;
-        overflow-x: hidden;
+        max-height: auto;
+        overflow: hidden;
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
