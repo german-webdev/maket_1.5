@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="fonts\TTLakes\stylesheet.css" rel="stylesheet">
     <link href="dist\css\promo.css" rel="stylesheet">
-    <link href="node_modules\swiper\swiper-bundle.css" rel="stylesheet" media="handheld
-    ">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link media="(max-width: 320px)" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     
     <title>CPS</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="promo">
+        <section class="promo">
             <div class="promo__header">
                 <h2 class="title promo__title">
                     Ремонт техники различных брендов
@@ -22,53 +20,84 @@
             </div>
 
             
-            <div class="promo__grid">
-                <ul class="promo__list promo__list--hidden">
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\lenovo.png" alt="lenovo"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+            <div class="promo__grid swiper">
+                <ul class="promo__list promo__list--hidden swiper-wrapper">
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\lenovo.png" alt="lenovo">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\samsung.png" alt="samsung"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\samsung.png" alt="samsung">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\apple.png" alt="apple"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\apple.png" alt="apple">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\viewsonic.png" alt="viewsonic"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\viewsonic.png" alt="viewsonic">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\bosch.png" alt="bosch"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\bosch.png" alt="bosch">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\hp.png" alt="hp"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\hp.png" alt="hp">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\acer.png" alt="acer"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\acer.png" alt="acer">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\sony.png" alt="sony"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\sony.png" alt="sony">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\lenovo.png" alt="lenovo"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\lenovo.png" alt="lenovo">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\samsung.png" alt="samsung"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\samsung.png" alt="samsung">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
-                    <li class="promo__item">
-                        <a href="#" class="promo__logo"><img src="images\apple.png" alt="apple"></a>
-                        <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\apple.png" alt="apple">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
+                    </li>
+
+                    <li class="promo__item swiper-slide">
+                        <a class="promo__link" href="#" >
+                            <img class="promo__logo" src="images\apple.png" alt="apple">
+                            <img src="images\arrow.svg" alt="arrow">
+                        </a>
                     </li>
                 </ul>
+
+                <div class="swiper-pagination"></div>
 
                 <button class="button promo__button">
                     <span class="button__arrow"></span>
@@ -78,90 +107,12 @@
 
 
             
-        </div>
-    </div>
-
-
-
-    <!-- Slider main container -->
-    
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\lenovo.png" alt="lenovo"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\samsung.png" alt="samsung"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\apple.png" alt="apple"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\viewsonic.png" alt="viewsonic"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\bosch.png" alt="bosch"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\hp.png" alt="hp"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\acer.png" alt="acer"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\sony.png" alt="sony"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\lenovo.png" alt="lenovo"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\samsung.png" alt="samsung"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide__item">
-                    <a href="#" class="promo__logo"><img src="images\apple.png" alt="apple"></a>
-                    <a href="#" class="promo__link"><img src="images\arrow.svg" alt="arrow"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper-pagination"></div>
+        </section>
     </div>
 </div>    
 
+
+    <script src="dist\js\resize.js"></script>  
     <script src="dist\js\promo.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="dist\js\swiper.js"></script>      
